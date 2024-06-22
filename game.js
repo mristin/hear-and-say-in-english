@@ -542,7 +542,12 @@ Select the level:
     }
 
     systemState.speechRecognition.onresult = function (event) {
-      that.oldSpeechRecognitionOnResult(event);
+      if (
+        that.oldSpeechRecognitionOnResult !== null
+        && that.oldSpeechRecognitionOnResult !== undefined
+      ) {
+        that.oldSpeechRecognitionOnResult(event);
+      }
 
       const option = whichTextRecognized(
         event.results,
@@ -910,7 +915,12 @@ class DialoguePlay {
     );
 
     systemState.speechRecognition.onresult = function (event) {
-      that.oldSpeechRecognitionOnResult(event);
+      if (
+        that.oldSpeechRecognitionOnResult !== null
+        && that.oldSpeechRecognitionOnResult !== undefined
+      ) {
+        that.oldSpeechRecognitionOnResult(event);
+      }
 
       if (!that.playable) {
         return;
@@ -1092,7 +1102,12 @@ class DialogueBravo {
           systemState.speechRecognition.onresult
         );
         systemState.speechRecognition.onresult = function (event) {
-          that.oldSpeechRecognitionOnResult(event);
+          if (
+            that.oldSpeechRecognitionOnResult !== null
+            && that.oldSpeechRecognitionOnResult !== undefined
+          ) {
+            that.oldSpeechRecognitionOnResult(event);
+          }
 
           const option = whichTextRecognized(
             event.results,
