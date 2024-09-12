@@ -135,6 +135,46 @@ const levels = [
       {question: "komplikovan", answers: ["complicated"]},
     ]
   },
+  {
+    name: "Words from the movie \"Family bonds\"",
+    vocabulary: [
+      {question: "izleći se", answers: ["to hatch", "hatch"]},
+      {question: "suša", answers: ["drought"]},
+      {question: "tražiti", answers: ["to search", "search"]},
+      {question: "krdo", answers: ["herd"]},
+      {question: "čopor", answers: ["pack"]},
+      {question: "trebati", answers: ["to need", "need"]},
+      {question: "potreba", answers: ["need"]},
+      {question: "putovati", answers: ["to travel", "travel"]},
+      {question: "dalje", answers: ["further"]},
+      {question: "kako želiš", answers: ["up to you"]},
+      {question: "četvrtina", answers: ["quater"]},
+      {question: "prilično", answers: ["pretty"]},
+      {question: "zaštititi", answers: ["to protect", "protect"]},
+      {question: "ozbiljan", answers: ["serious"]},
+      {question: "umetnost", answers: ["art"]},
+      {question: "zadužen", answers: ["in charge"]},
+      {question: "cilj, meta", answers: ["target"]},
+      {question: "godišnje doba", answers: ["season"]},
+      {question: "zatvorenik", answers: ["prisoner"]},
+      {question: "sećanja", answers: ["memories"]},
+      {question: "smrt", answers: ["death"]},
+      {question: "ispustiti", answers: ["to drop", "drop"]},
+      {question: "goniti", answers: ["to chase"]},
+      {question: "oblak", answers: ["cloud"]},
+      {question: "otkriti, opaziti", answers: ["to detect", "detect"]},
+      {question: "odrastao", answers: ["adult"]},
+      {question: "pre", answers: ["before"]},
+      {question: "zaceliti, izlečiti se", answers: ["to heal", "heal"]},
+      {question: "zbog toga što, zato što", answers: ["because"]},
+      {question: "pomeriti", answers: ["to move", "move"]},
+      {question: "zamka", answers: ["trap"]},
+      {question: "opet", answers: ["again"]},
+      {question: "vežbati", answers: ["to practice", "practice"]},
+      {question: "nastaviti", answers: ["to continue", "continue"]},
+      {question: "alatka", answers: ["tool"]},
+    ]
+  },
 ];
 
 if (levels.length === 0) {
@@ -608,7 +648,9 @@ class DialogueHello {
           systemState.speechSynthesisVoiceTarget
         )
       })
-      .then(() => {dialoguer.put(new DialoguePlay())})
+      .then(() => {
+        dialoguer.put(new DialoguePlay())
+      })
       .catch((err) => {
         console.error("Something went wrong:", err);
         throw new Error();
@@ -866,9 +908,13 @@ class DialoguePlay {
         that.resetGhost();
         that.logCard();
       })
-      .then(() => {return that.announceQuestionIfCards();})
+      .then(() => {
+        return that.announceQuestionIfCards();
+      })
       .then(promiseToActivateSpeechRecognition)
-      .then(() => {that.playable = true;});
+      .then(() => {
+        that.playable = true;
+      });
   }
 
   /**
@@ -896,7 +942,9 @@ class DialoguePlay {
           return that.promiseToHandleFail();
         } else {
           return promiseToActivateSpeechRecognition()
-            .then(() => {that.playable = true;});
+            .then(() => {
+              that.playable = true;
+            });
         }
       })
       .catch((err) => {
@@ -949,10 +997,16 @@ class DialoguePlay {
     };
 
     Promise.resolve()
-      .then(() => {that.playable = false;})
-      .then(() => {return that.announceQuestionIfCards();})
+      .then(() => {
+        that.playable = false;
+      })
+      .then(() => {
+        return that.announceQuestionIfCards();
+      })
       .then(promiseToActivateSpeechRecognition)
-      .then(() => {that.playable = true;})
+      .then(() => {
+        that.playable = true;
+      })
       .catch((err) => {
         console.error("Something went wrong:", err);
         throw new Error();
