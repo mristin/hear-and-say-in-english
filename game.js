@@ -136,23 +136,28 @@ const levels = [
     ]
   },
   {
-    name: "Words from the movie \"Family bonds\"",
+    name: "Family bonds 1",
     vocabulary: [
       {question: "izleći se", answers: ["to hatch", "hatch"]},
-      {question: "suša", answers: ["drought"]},
+      {question: "suša", answers: ["drought", "trout"]},
       {question: "tražiti", answers: ["to search", "search"]},
       {question: "krdo", answers: ["herd"]},
-      {question: "čopor", answers: ["pack"]},
+      {question: "čopor", answers: ["pack", "peck"]},
       {question: "trebati", answers: ["to need", "need"]},
       {question: "potreba", answers: ["need"]},
       {question: "putovati", answers: ["to travel", "travel"]},
       {question: "dalje", answers: ["further"]},
-      {question: "kako želiš", answers: ["up to you"]},
-      {question: "četvrtina", answers: ["quater"]},
+      {question: "kako želiš", answers: ["up to you", "as you wish"]},
+      {question: "četvrtina", answers: ["quarter"]},
       {question: "prilično", answers: ["pretty"]},
       {question: "zaštititi", answers: ["to protect", "protect"]},
       {question: "ozbiljan", answers: ["serious"]},
       {question: "umetnost", answers: ["art"]},
+    ]
+  },
+  {
+    name: "Family bonds 2",
+    vocabulary: [
       {question: "zadužen", answers: ["in charge"]},
       {question: "cilj, meta", answers: ["target"]},
       {question: "godišnje doba", answers: ["season"]},
@@ -160,7 +165,7 @@ const levels = [
       {question: "sećanja", answers: ["memories"]},
       {question: "smrt", answers: ["death"]},
       {question: "ispustiti", answers: ["to drop", "drop"]},
-      {question: "goniti", answers: ["to chase"]},
+      {question: "goniti", answers: ["to chase", "chase"]},
       {question: "oblak", answers: ["cloud"]},
       {question: "otkriti, opaziti", answers: ["to detect", "detect"]},
       {question: "odrastao", answers: ["adult"]},
@@ -174,7 +179,7 @@ const levels = [
       {question: "nastaviti", answers: ["to continue", "continue"]},
       {question: "alatka", answers: ["tool"]},
     ]
-  },
+  }
 ];
 
 if (levels.length === 0) {
