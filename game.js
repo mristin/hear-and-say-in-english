@@ -179,6 +179,40 @@ const levels = [
       {question: "nastaviti", answers: ["to continue", "continue"]},
       {question: "alatka", answers: ["tool"]},
     ]
+  },
+  {
+    name: "Halloween",
+    vocabulary: [
+      {question: "skičati", answers: ["squeal", "to squeal"]},
+      {question: "radost, uživanje", answers: ["delight"]},
+      {question: "šišmiš", answers: ["bat"]},
+      {question: "grana", answers: ["branch"]},
+      {question: "grozan, strašan", answers: ["frightful"]},
+      {question: "strah, trema", answers: ["fright"]},
+      {question: "bombon", answers: ["candy"]},
+      {question: "zgrabiti, uhvatiti", answers: ["to grab", "grab"]},
+      {question: "baterijska lampa", answers: ["flashlight"]},
+      {question: "časti ili nagrabusi", answers: ["trick or treat"]},
+      {question: "otkrivati", answers: ["to reveal", "reveal"]},
+      {question: "hrpa", answers: ["pile"]},
+      {question: "kost", answers: ["bone"]},
+      {question: "zrak", answers: ["beam"]},
+      {question: "ječati", answers: ["to moan", "moan"]},
+      {question: "jaukati", answers: ["to groan", "groan"]},
+      {question: "ljuljaška", answers: ["swing"]},
+      {question: "klatiti se, njihati se", answers: ["to sway", "sway"]},
+      {question: "ogrtač", answers: ["cloak"]},
+      {question: "posvetliti", answers: ["to brighten", "brighten"]},
+      {question: "žaba krastača", answers: ["toad"]},
+      {question: "žaba", answers: ["frog"]},
+      {question: "pena", answers: ["foam"]},
+      {question: "preplašiti", answers: ["to frighten"]},
+      {question: "džep", answers: ["pocket"]},
+      {question: "vikati", answers: ["yell", "to yell"]},
+      {question: "kakao", answers: ["cocoa"]},
+      {question: "krut, ukočen", answers: ["stiff"]},
+      {question: "razmetati se", answers: ["to boast", "boast"]},
+    ]
   }
 ];
 
