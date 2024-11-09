@@ -215,7 +215,7 @@ const levels = [
     ]
   },
   {
-    name: "A English 3 levels Part 1",
+    name: "KIS Wordlist Part 1",
     vocabulary: [
       {question: "dok, sve dok", answers: ["while"]},
       {question: "svetlost dana", answers: ["daylight"]},
@@ -237,6 +237,13 @@ const levels = [
       {question: "tokom", answers: ["during"]},
       {question: "posle, nakon", answers: ["afterward"]},
       {question: "saviti", answers: ["bend", "to bend"]},
+      {question: "geslo", answers: ["slogan"]},
+      {question: "često", answers: ["frequently"]},
+    ]
+  },
+  {
+    name: "KIS Wordlist Part 2",
+    vocabulary: [
       {question: "čistiti zube koncem", answers: ["floss", "to floss"]},
       {question: "prednji deo, napred", answers: ["front"]},
       {question: "potpuno", answers: ["totally"]},
@@ -244,11 +251,6 @@ const levels = [
       {question: "proizvod", answers: ["product"]},
       {question: "dobit", answers: ["profit"]},
       {question: "duž", answers: ["along"]},
-    ]
-  },
-  {
-    name: "A English 3 levels Part 2",
-    vocabulary: [
       {question: "tona", answers: ["ton"]},
       {question: "centar pažnje", answers: ["focus"]},
       {question: "konačno", answers: ["finally"]},
@@ -265,8 +267,12 @@ const levels = [
       {question: "uzrok", answers: ["cause"]},
       {question: "posledica", answers: ["effect", "consequence"]},
       {question: "iskren", answers: ["honest"]},
-      {question: "geslo", answers: ["slogan"]},
-      {question: "često", answers: ["frequently"]},
+
+    ]
+  },
+  {
+    name: "KIS Wordlist Part 3",
+    vocabulary: [
       {question: "maketa", answers: ["model"]},
       {question: "udaljen", answers: ["distant"]},
       {question: "džangrizav, mrzovoljan", answers: ["grumpy"]},
@@ -275,10 +281,27 @@ const levels = [
       {question: "takmičenje", answers: ["contest"]},
       {question: "nagaziti", answers: ["stump", "to stump"]},
       {question: "put", answers: ["trip"]},
-      {question: "klada", answers: ["log"]}
-    ]
+      {question: "klada", answers: ["log"]},
+      {question: "stanje", answers: ["state"]},
+      {question: "država", answers: ["state"]},
+      {question: "talas", answers: ["wave"]},
+      {question: "izbrisati", answers: ["delete", "to delete"]},
+      {question: "ljubazan, vaspitan, pristojan", answers: ["polite"]},
+      {question: "polako iščezavati, nestajati", answers: ["fade", "to fade"]},
+      {question: "pobeći, izbaviti se", answers: ["escape", "to escape"]},
+      {question: "biti živ", answers: ["be alive", "to be alive"]},
+      {question: "ličiti, biti sličan", answers: ["be alike", "to be alike"]},
+      {question: "potpun, zaokružen, ceo", answers: ["complete"]},
+      {question: "tema", answers: ["theme"]},
+      {question: "opisati", answers: ["describe", "to describe"]},
+      {question: "konkretno", answers: ["concrete"]},
+      {question: "situirati, postaviti u scenu", answers: ["locate", "to locate"]},
+      {question: "ponovo pregledati, preraditi", answers: ["revise", "to revise"]},
+      {question: "pokazati, dokazati", answers: ["demonstrate", "to demonstrate"]},
+      {question: "nastojati, stremiti", answers: ["strive", "to strive"]},
+    ],
   }
-];
+]
 
 if (levels.length === 0) {
   throw new Error("DialogueSelectLevel expects at least one level.")
