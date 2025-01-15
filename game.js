@@ -295,9 +295,18 @@ const levels = [
       {question: "tema", answers: ["theme"]},
       {question: "opisati", answers: ["describe", "to describe"]},
       {question: "konkretno", answers: ["concrete"]},
-      {question: "situirati, postaviti u scenu", answers: ["locate", "to locate"]},
-      {question: "ponovo pregledati, preraditi", answers: ["revise", "to revise"]},
-      {question: "pokazati, dokazati", answers: ["demonstrate", "to demonstrate"]},
+      {
+        question: "situirati, postaviti u scenu",
+        answers: ["locate", "to locate"]
+      },
+      {
+        question: "ponovo pregledati, preraditi",
+        answers: ["revise", "to revise"]
+      },
+      {
+        question: "pokazati, dokazati",
+        answers: ["demonstrate", "to demonstrate"]
+      },
       {question: "nastojati, stremiti", answers: ["strive", "to strive"]},
     ],
   },
@@ -346,11 +355,11 @@ const levels = [
       },
       {
         question: "mir",
-        answers: ["peace"]
+        answers: ["peace", "piece"]
       },
       {
         question: "parče",
-        answers: ["piece"]
+        answers: ["piece", "peace"]
       },
       {
         question: "nesreća",
@@ -383,6 +392,128 @@ const levels = [
       {
         question: "usluga",
         answers: ["favor"]
+      }
+    ]
+  },
+  {
+    name: "Kung fu panda 2",
+    vocabulary: [
+      {
+        question: "slabost",
+        answers: ["weakness"]
+      },
+      {
+        question: "truliti",
+        answers: ["to rot", "rot"]
+      },
+      {
+        question: "poraziti",
+        answers: ["to defeat", "defeat"]
+      },
+      {
+        question: "pokloniti se pred njegovim nogama",
+        answers: ["bow at his feet"]
+      },
+      {
+        question: "osim ako / ukoliko ne",
+        answers: ["unless"]
+      },
+      {
+        question: "zameniti",
+        answers: ["to replace", "replace"]
+      },
+      {
+        question: "predskazati",
+        answers: ["to foretell", "foretell"]
+      },
+      {
+        question: "sreća / bogatstvo",
+        answers: ["fortune", "luck", "wealth"]
+      },
+      {
+        question: "rešenje",
+        answers: ["solution"]
+      },
+      {
+        question: "pravda",
+        answers: ["justice"]
+      },
+      {
+        question: "prilika",
+        answers: ["occasion", "opportunity"]
+      },
+      {
+        question: "dramatičan",
+        answers: ["dramatic"]
+      },
+      {
+        question: "zapaljiv",
+        answers: ["flammable"]
+      },
+      {
+        question: "cvetati / procvetati",
+        answers: ["to bloom", "bloom"]
+      },
+      {
+        question: "naslednik",
+        answers: ["successor"]
+      },
+      {
+        question: "vođstvo / uputstvo",
+        answers: ["guidance", "instruction"]
+      },
+      {
+        question: "veštica / čarobnica",
+        answers: ["sorceress", "witch", "enchantress"]
+      },
+      {
+        question: "menjanje oblika",
+        answers: ["shape-shifting", "transforming"]
+      },
+      {
+        question: "poslovica",
+        answers: ["proverb"]
+      },
+      {
+        question: "običaj",
+        answers: ["custom", "tradition"]
+      }
+    ]
+  },
+  {
+    name: "Kung fu panda 3",
+    vocabulary: [
+      {
+        question: "po meri / ručno izrađen",
+        answers: ["custom-made"]
+      },
+      {
+        question: "milost",
+        answers: ["mercy"]
+      },
+      {
+        question: "nemilosrdan / surov",
+        answers: ["ruthless"]
+      },
+      {
+        question: "sentimentalan / osećajan",
+        answers: ["sentimental"]
+      },
+      {
+        question: "dragovoljno / dobrovoljno",
+        answers: ["willingly"]
+      },
+      {
+        question: "uznemirujući",
+        answers: ["disturbing"]
+      },
+      {
+        question: "očaranje / čarolija",
+        answers: ["enchantment"]
+      },
+      {
+        question: "nadoknaditi / kompenzovati",
+        answers: ["compensate"]
       }
     ]
   }
