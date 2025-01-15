@@ -300,6 +300,91 @@ const levels = [
       {question: "pokazati, dokazati", answers: ["demonstrate", "to demonstrate"]},
       {question: "nastojati, stremiti", answers: ["strive", "to strive"]},
     ],
+  },
+  {
+    name: "Kung fu panda 1",
+    vocabulary: [
+      {
+        question: "učiniti nepokretnim",
+        answers: ["immobilize", "to immobilize"]
+      },
+      {
+        question: "svariti",
+        answers: ["digest", "to digest"]
+      },
+      {
+        question: "nežan",
+        answers: ["tender"]
+      },
+      {
+        question: "razočaravajuć",
+        answers: ["disappointing"]
+      },
+      {
+        question: "sramota",
+        answers: ["disgrace"]
+      },
+      {
+        question: "sveto",
+        answers: ["sacred"]
+      },
+      {
+        question: "nebesa",
+        answers: ["heaven"]
+      },
+      {
+        question: "zabrinut",
+        answers: ["concerned"]
+      },
+      {
+        question: "zglobovi prstiju",
+        answers: ["knuckles"]
+      },
+      {
+        question: "mrak",
+        answers: ["darkness"]
+      },
+      {
+        question: "mir",
+        answers: ["peace"]
+      },
+      {
+        question: "parče",
+        answers: ["piece"]
+      },
+      {
+        question: "nesreća",
+        answers: ["accident"]
+      },
+      {
+        question: "iluzija",
+        answers: ["illusion"]
+      },
+      {
+        question: "poniznost",
+        answers: ["humility"]
+      },
+      {
+        question: "evakuisati",
+        answers: ["evacuate", "to evacuate"]
+      },
+      {
+        question: "sudbina",
+        answers: ["destiny"]
+      },
+      {
+        question: "čekati",
+        answers: ["await", "to await"]
+      },
+      {
+        question: "omiljeni",
+        answers: ["favorite"]
+      },
+      {
+        question: "usluga",
+        answers: ["favor"]
+      }
+    ]
   }
 ]
 
