@@ -516,6 +516,249 @@ const levels = [
         answers: ["compensate"]
       }
     ]
+  },
+  {
+    "name": "Kung fu panda 4",
+    "vocabulary": [
+      {
+        "question": "moda",
+        "answers": ["fashion"]
+      },
+      {
+        "question": "dostignuće / uspeh",
+        "answers": ["achievement"]
+      },
+      {
+        "question": "oklopna rukavica",
+        "answers": ["gauntlet"]
+      },
+      {
+        "question": "crevo / stomak",
+        "answers": ["gut"]
+      },
+      {
+        "question": "sahrana",
+        "answers": ["funeral"]
+      },
+      {
+        "question": "lutati",
+        "answers": ["to wander", "wander"]
+      },
+      {
+        "question": "obnoviti / vratiti",
+        "answers": ["to restore", "restore"]
+      },
+      {
+        "question": "herojski",
+        "answers": ["heroic"]
+      },
+      {
+        "question": "delo / podvig",
+        "answers": ["deed"]
+      },
+      {
+        "question": "ostaviti utisak / impresionirati",
+        "answers": ["to impress", "impress"]
+      },
+      {
+        "question": "ravnodnevnica",
+        "answers": ["equinox"]
+      },
+      {
+        "question": "kovati",
+        "answers": ["to forge", "forge"]
+      },
+      {
+        "question": "probušiti / probosti",
+        "answers": ["to pierce", "pierce"]
+      },
+      {
+        "question": "lobanja",
+        "answers": ["skull"]
+      },
+      {
+        "question": "proterati / isterati",
+        "answers": ["to banish", "banish"]
+      },
+      {
+        "question": "pokolj / krvoproliće",
+        "answers": ["carnage"]
+      },
+      {
+        "question": "obala",
+        "answers": ["shore"]
+      },
+      {
+        "question": "prečica / skraćeni put",
+        "answers": ["shortcut"]
+      },
+      {
+        "question": "popust",
+        "answers": ["discount"]
+      },
+      {
+        "question": "naknada / taksa",
+        "answers": ["fee"]
+      },
+      {
+        "question": "prevrnuti se / pasti",
+        "answers": ["to tumble", "tumble"]
+      },
+      {
+        "question": "štit",
+        "answers": ["shield"]
+      },
+      {
+        "question": "nastaviće se",
+        "answers": ["to be continued"]
+      },
+      {
+        "question": "ne uspeti",
+        "answers": ["to fail", "fail"]
+      },
+      {
+        "question": "predati se",
+        "answers": ["to surrender", "surrender"]
+      },
+      {
+        "question": "problem",
+        "answers": ["issue"]
+      }
+    ]
+  },
+  {
+    "name": "Marry Poppins",
+    "vocabulary": [
+      {
+        "question": "odvratan",
+        "answers": ["atrocious"]
+      },
+      {
+        "question": "ponašanje",
+        "answers": ["behavior"]
+      },
+      {
+        "question": "zarazan",
+        "answers": ["contagious"]
+      },
+      {
+        "question": "odlučiti se",
+        "answers": ["to make up their mind", "make up their mind"]
+      },
+      {
+        "question": "pomoći",
+        "answers": ["to give somebody a hand", "give somebody a hand"]
+      },
+      {
+        "question": "raspored",
+        "answers": ["schedule"]
+      },
+      {
+        "question": "sipati",
+        "answers": ["to pour", "pour"]
+      },
+      {
+        "question": "dugačko donje rublje / dugačke gaće",
+        "answers": ["long underwear"]
+      },
+      {
+        "question": "smiren",
+        "answers": ["calm"]
+      },
+      {
+        "question": "vinuti se",
+        "answers": ["to soar", "soar"]
+      },
+      {
+        "question": "čestitati",
+        "answers": ["to congratulate", "congratulate"]
+      },
+      {
+        "question": "vratiti se",
+        "answers": ["to return", "return"]
+      },
+      {
+        "question": "sačuvati / štedeti",
+        "answers": ["to save", "save"]
+      },
+      {
+        "question": "preminuti",
+        "answers": ["to pass away", "pass away"]
+      }
+    ]
+  },
+  {
+    "name": "Mighty Jack",
+    "vocabulary": [
+      {
+        "question": "posmatrati / pratiti",
+        "answers": ["to observe", "observe"]
+      },
+      {
+        "question": "uređaj",
+        "answers": ["device"]
+      },
+      {
+        "question": "pristati / složiti se",
+        "answers": ["to agree", "agree"]
+      },
+      {
+        "question": "motor",
+        "answers": ["engine"]
+      },
+      {
+        "question": "očajan",
+        "answers": ["desperate"]
+      },
+      {
+        "question": "drugar",
+        "answers": ["buddy"]
+      },
+      {
+        "question": "papiri / dokumentacija",
+        "answers": ["paperwork"]
+      },
+      {
+        "question": "popuniti",
+        "answers": ["to fill out", "fill out"]
+      },
+      {
+        "question": "zapaliti",
+        "answers": ["to set on fire", "set on fire"]
+      },
+      {
+        "question": "ambar / štala",
+        "answers": ["barn"]
+      },
+      {
+        "question": "lutati / skitati",
+        "answers": ["to roam", "roam"]
+      },
+      {
+        "question": "korov",
+        "answers": ["weed"]
+      },
+      {
+        "question": "povući nekoga / cimnuti nekoga",
+        "answers": ["to tug somebody", "tug somebody"]
+      },
+      {
+        "question": "sahraniti / zakopati",
+        "answers": ["to bury", "bury"]
+      },
+      {
+        "question": "jarak / kanal",
+        "answers": ["ditch"]
+      },
+      {
+        "question": "uzdahnuti",
+        "answers": ["to sigh", "sigh"]
+      },
+      {
+        "question": "završiti za danas",
+        "answers": ["to call it a day", "call it a day"]
+      }
+    ]
   }
 ]
 
