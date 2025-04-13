@@ -759,6 +759,41 @@ const levels = [
         "answers": ["to call it a day", "call it a day"]
       }
     ]
+  },
+  {
+    name: "Charlotte's Webb",
+    vocabulary: [
+      {question: "potok", answers: ["brook"]},
+      {
+        question: "izdržavati nekoga",
+        answers: ["provide for", "to provide for"]
+      },
+      {question: "radi kako hoćeš", answers: ["do as you please"]},
+      {question: "pocrveneti", answers: ["blush", "to blush"]},
+      {question: "viriti", answers: ["peek", "to peek"]},
+      {question: "majušni, zakržljali", answers: ["runt"]},
+      {question: "vikati", answers: ["holler", "to holler"]},
+      {question: "đubrivo", answers: ["manure"]},
+      {question: "znoj", answers: ["perspiration"]},
+      {question: "povetarac", answers: ["breeze"]},
+      {question: "vile", answers: ["pitchfork"]},
+      {question: "svinjac", answers: ["pigpen"]},
+      {question: "odbaciti nešto", answers: ["discard", "to discard"]},
+      {question: "cereknuti se", answers: ["chuckle", "to chuckle"]},
+      {question: "vrteti, uvrteti", answers: ["twirl", "to twirl"]},
+      {question: "voćnjak", answers: ["orchard"]},
+      {question: "šupa", answers: ["shed"]},
+      {question: "zakrpiti, popraviti", answers: ["mend", "to mend"]},
+      {question: "unajmiti", answers: ["hire", "to hire"]},
+      {
+        question: "izmaći se, izbegavati",
+        answers: ["dodge about", "to dodge about"]
+      },
+      {question: "frka, galama", answers: ["fuss"]},
+      {question: "zarobljeništvo", answers: ["captivity"]},
+      {question: "pozvati se na nešto", answers: ["appeal to", "to appeal to"]},
+      {question: "pohvala", answers: ["praise"]}
+    ]
   }
 ]
 
