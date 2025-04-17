@@ -979,29 +979,40 @@ Waiting for the speech synthesis to initialize...
   }
 
   refresh() {
-    const messageDiv = document.getElementById("message");
-    const dots = [];
-    for (let i = 0; i < this.retries; i++) {
-      dots.push(".")
-    }
-
-    updateInnerTextIfNeeded(
-      messageDiv,
-      "Waiting for the speech synthesis to initialize"
-      + dots.join("")
-    )
+    // Intentionally empty.
   }
 
   tick(timestamp) {
     if (this.lastTick === null || timestamp - this.lastTick > 1000) {
-      if (window.speechSynthesis.getVoices().length > 0) {
-        setupSpeechSynthesis();
-        dialoguer.put(new DialogueWaitingForSpeechRecognition());
+      const messageDiv = document.getElementById("message");
+
+      if (
+        window.speechSynthesis !== undefined
+        && window.speechSynthesis.getVoices().length > 0
+      ) {
+        const maybeError = setupSpeechSynthesis();
+
+        if (maybeError !== null) {
+          dialoguer.put(new DialogueNoSpeechSynthesisAvailable());
+        } else {
+          dialoguer.put(new DialogueWaitingForSpeechRecognition());
+        }
       } else {
         this.retries--;
 
         if (this.retries === 0) {
           dialoguer.put(new DialogueNoSpeechSynthesisAvailable());
+        } else {
+          const dots = [];
+          for (let i = 0; i < this.retries; i++) {
+            dots.push(".")
+          }
+
+          updateInnerTextIfNeeded(
+            messageDiv,
+            "Waiting for the speech synthesis to initialize"
+            + dots.join("")
+          )
         }
       }
 
@@ -1023,7 +1034,9 @@ class DialogueNoSpeechSynthesisAvailable {
   initialHTML() {
     return `<div class='announcement'>
 No speech synthesis is available in your browser. Perhaps you have no 
-internet connection and your browser needs one for speech synthesis?
+internet connection and your browser needs one for speech synthesis?<br/>
+<br/>
+Or maybe the source and the target languages are not supported by your browser?
 </div>`;
   }
 
@@ -1928,17 +1941,17 @@ function shuffle(array) {
   return shuffled;
 }
 
+/**
+ * Setup the speech synthesis encapsulating the interaction with `windows`.
+ * @returns {string|null} error, if any
+ */
 function setupSpeechSynthesis() {
   systemState.speechSynthesisVoiceSource = null;
   systemState.speechSynthesisVoiceTarget = null;
 
-  if (window.speechSynthesis === undefined) {
-    return;
-  }
-
   const voices = window.speechSynthesis.getVoices();
   if (voices === null || voices === undefined || voices.length === 0) {
-    return;
+    return "Precondition violated: expected speech synthesis voices";
   }
 
   for (let i = 0; i < voices.length; i++) {
@@ -1964,18 +1977,18 @@ function setupSpeechSynthesis() {
   }
 
   if (systemState.speechSynthesisVoiceSource === null) {
-    console.error(
+    return (
       "The speech synthesis for the source language could not be found."
     );
-    throw new Error();
   }
 
   if (systemState.speechSynthesisVoiceTarget === null) {
-    console.error(
+    return (
       "The speech synthesis for the target language could not be found."
     );
-    throw new Error();
   }
+
+  return null;
 }
 
 /**
