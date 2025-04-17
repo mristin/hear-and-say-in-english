@@ -518,245 +518,245 @@ const levels = [
     ]
   },
   {
-    "name": "Kung fu panda 4",
-    "vocabulary": [
+    name: "Kung fu panda 4",
+    vocabulary: [
       {
-        "question": "moda",
-        "answers": ["fashion"]
+        question: "moda",
+        answers: ["fashion"]
       },
       {
-        "question": "dostignuće / uspeh",
-        "answers": ["achievement"]
+        question: "dostignuće / uspeh",
+        answers: ["achievement"]
       },
       {
-        "question": "oklopna rukavica",
-        "answers": ["gauntlet"]
+        question: "oklopna rukavica",
+        answers: ["gauntlet"]
       },
       {
-        "question": "crevo / stomak",
-        "answers": ["gut"]
+        question: "crevo / stomak",
+        answers: ["gut"]
       },
       {
-        "question": "sahrana",
-        "answers": ["funeral"]
+        question: "sahrana",
+        answers: ["funeral"]
       },
       {
-        "question": "lutati",
-        "answers": ["to wander", "wander"]
+        question: "lutati",
+        answers: ["to wander", "wander"]
       },
       {
-        "question": "obnoviti / vratiti",
-        "answers": ["to restore", "restore"]
+        question: "obnoviti / vratiti",
+        answers: ["to restore", "restore"]
       },
       {
-        "question": "herojski",
-        "answers": ["heroic"]
+        question: "herojski",
+        answers: ["heroic"]
       },
       {
-        "question": "delo / podvig",
-        "answers": ["deed"]
+        question: "delo / podvig",
+        answers: ["deed"]
       },
       {
-        "question": "ostaviti utisak / impresionirati",
-        "answers": ["to impress", "impress"]
+        question: "ostaviti utisak / impresionirati",
+        answers: ["to impress", "impress"]
       },
       {
-        "question": "ravnodnevnica",
-        "answers": ["equinox"]
+        question: "ravnodnevnica",
+        answers: ["equinox"]
       },
       {
-        "question": "kovati",
-        "answers": ["to forge", "forge"]
+        question: "kovati",
+        answers: ["to forge", "forge"]
       },
       {
-        "question": "probušiti / probosti",
-        "answers": ["to pierce", "pierce"]
+        question: "probušiti / probosti",
+        answers: ["to pierce", "pierce"]
       },
       {
-        "question": "lobanja",
-        "answers": ["skull"]
+        question: "lobanja",
+        answers: ["skull"]
       },
       {
-        "question": "proterati / isterati",
-        "answers": ["to banish", "banish"]
+        question: "proterati / isterati",
+        answers: ["to banish", "banish"]
       },
       {
-        "question": "pokolj / krvoproliće",
-        "answers": ["carnage"]
+        question: "pokolj / krvoproliće",
+        answers: ["carnage"]
       },
       {
-        "question": "obala",
-        "answers": ["shore"]
+        question: "obala",
+        answers: ["shore"]
       },
       {
-        "question": "prečica / skraćeni put",
-        "answers": ["shortcut"]
+        question: "prečica / skraćeni put",
+        answers: ["shortcut"]
       },
       {
-        "question": "popust",
-        "answers": ["discount"]
+        question: "popust",
+        answers: ["discount"]
       },
       {
-        "question": "naknada / taksa",
-        "answers": ["fee"]
+        question: "naknada / taksa",
+        answers: ["fee"]
       },
       {
-        "question": "prevrnuti se / pasti",
-        "answers": ["to tumble", "tumble"]
+        question: "prevrnuti se / pasti",
+        answers: ["to tumble", "tumble"]
       },
       {
-        "question": "štit",
-        "answers": ["shield"]
+        question: "štit",
+        answers: ["shield"]
       },
       {
-        "question": "nastaviće se",
-        "answers": ["to be continued"]
+        question: "nastaviće se",
+        answers: ["to be continued"]
       },
       {
-        "question": "ne uspeti",
-        "answers": ["to fail", "fail"]
+        question: "ne uspeti",
+        answers: ["to fail", "fail"]
       },
       {
-        "question": "predati se",
-        "answers": ["to surrender", "surrender"]
+        question: "predati se",
+        answers: ["to surrender", "surrender"]
       },
       {
-        "question": "problem",
-        "answers": ["issue"]
+        question: "problem",
+        answers: ["issue"]
       }
     ]
   },
   {
-    "name": "Marry Poppins",
-    "vocabulary": [
+    name: "Marry Poppins",
+    vocabulary: [
       {
-        "question": "odvratan",
-        "answers": ["atrocious"]
+        question: "odvratan",
+        answers: ["atrocious"]
       },
       {
-        "question": "ponašanje",
-        "answers": ["behavior"]
+        question: "ponašanje",
+        answers: ["behavior"]
       },
       {
-        "question": "zarazan",
-        "answers": ["contagious"]
+        question: "zarazan",
+        answers: ["contagious"]
       },
       {
-        "question": "odlučiti se",
-        "answers": ["to make up their mind", "make up their mind"]
+        question: "odlučiti se",
+        answers: ["to make up their mind", "make up their mind"]
       },
       {
-        "question": "pomoći",
-        "answers": ["to give somebody a hand", "give somebody a hand"]
+        question: "pomoći",
+        answers: ["to give somebody a hand", "give somebody a hand"]
       },
       {
-        "question": "raspored",
-        "answers": ["schedule"]
+        question: "raspored",
+        answers: ["schedule"]
       },
       {
-        "question": "sipati",
-        "answers": ["to pour", "pour"]
+        question: "sipati",
+        answers: ["to pour", "pour"]
       },
       {
-        "question": "dugačko donje rublje / dugačke gaće",
-        "answers": ["long underwear"]
+        question: "dugačko donje rublje / dugačke gaće",
+        answers: ["long underwear"]
       },
       {
-        "question": "smiren",
-        "answers": ["calm"]
+        question: "smiren",
+        answers: ["calm"]
       },
       {
-        "question": "vinuti se",
-        "answers": ["to soar", "soar"]
+        question: "vinuti se",
+        answers: ["to soar", "soar"]
       },
       {
-        "question": "čestitati",
-        "answers": ["to congratulate", "congratulate"]
+        question: "čestitati",
+        answers: ["to congratulate", "congratulate"]
       },
       {
-        "question": "vratiti se",
-        "answers": ["to return", "return"]
+        question: "vratiti se",
+        answers: ["to return", "return"]
       },
       {
-        "question": "sačuvati / štedeti",
-        "answers": ["to save", "save"]
+        question: "sačuvati / štedeti",
+        answers: ["to save", "save"]
       },
       {
-        "question": "preminuti",
-        "answers": ["to pass away", "pass away"]
+        question: "preminuti",
+        answers: ["to pass away", "pass away"]
       }
     ]
   },
   {
-    "name": "Mighty Jack",
-    "vocabulary": [
+    name: "Mighty Jack",
+    vocabulary: [
       {
-        "question": "posmatrati / pratiti",
-        "answers": ["to observe", "observe"]
+        question: "posmatrati / pratiti",
+        answers: ["to observe", "observe"]
       },
       {
-        "question": "uređaj",
-        "answers": ["device"]
+        question: "uređaj",
+        answers: ["device"]
       },
       {
-        "question": "pristati / složiti se",
-        "answers": ["to agree", "agree"]
+        question: "pristati / složiti se",
+        answers: ["to agree", "agree"]
       },
       {
-        "question": "motor",
-        "answers": ["engine"]
+        question: "motor",
+        answers: ["engine"]
       },
       {
-        "question": "očajan",
-        "answers": ["desperate"]
+        question: "očajan",
+        answers: ["desperate"]
       },
       {
-        "question": "drugar",
-        "answers": ["buddy"]
+        question: "drugar",
+        answers: ["buddy"]
       },
       {
-        "question": "papiri / dokumentacija",
-        "answers": ["paperwork"]
+        question: "papiri / dokumentacija",
+        answers: ["paperwork"]
       },
       {
-        "question": "popuniti",
-        "answers": ["to fill out", "fill out"]
+        question: "popuniti",
+        answers: ["to fill out", "fill out"]
       },
       {
-        "question": "zapaliti",
-        "answers": ["to set on fire", "set on fire"]
+        question: "zapaliti",
+        answers: ["to set on fire", "set on fire"]
       },
       {
-        "question": "ambar / štala",
-        "answers": ["barn"]
+        question: "ambar / štala",
+        answers: ["barn"]
       },
       {
-        "question": "lutati / skitati",
-        "answers": ["to roam", "roam"]
+        question: "lutati / skitati",
+        answers: ["to roam", "roam"]
       },
       {
-        "question": "korov",
-        "answers": ["weed"]
+        question: "korov",
+        answers: ["weed"]
       },
       {
-        "question": "povući nekoga / cimnuti nekoga",
-        "answers": ["to tug somebody", "tug somebody"]
+        question: "povući nekoga / cimnuti nekoga",
+        answers: ["to tug somebody", "tug somebody"]
       },
       {
-        "question": "sahraniti / zakopati",
-        "answers": ["to bury", "bury"]
+        question: "sahraniti / zakopati",
+        answers: ["to bury", "bury"]
       },
       {
-        "question": "jarak / kanal",
-        "answers": ["ditch"]
+        question: "jarak / kanal",
+        answers: ["ditch"]
       },
       {
-        "question": "uzdahnuti",
-        "answers": ["to sigh", "sigh"]
+        question: "uzdahnuti",
+        answers: ["to sigh", "sigh"]
       },
       {
-        "question": "završiti za danas",
-        "answers": ["to call it a day", "call it a day"]
+        question: "završiti za danas",
+        answers: ["to call it a day", "call it a day"]
       }
     ]
   },
@@ -793,6 +793,58 @@ const levels = [
       {question: "zarobljeništvo", answers: ["captivity"]},
       {question: "pozvati se na nešto", answers: ["appeal to", "to appeal to"]},
       {question: "pohvala", answers: ["praise"]}
+    ]
+  },
+  {
+    name: "Charlotte's Webb 2",
+    vocabulary: [
+      {question: "postojano", answers: ["steadily"]},
+      {question: "krivudavo", answers: ["in crooked courses"]},
+      {question: "livada", answers: ["meadow"]},
+      {question: "sokak", answers: ["lane"]},
+      {question: "uličica", answers: ["lane"]},
+      {question: "zanimanje", answers: ["occupation"]},
+      {question: "sos", answers: ["gravy"]},
+      {question: "umak", answers: ["gravy"]},
+      {
+        question: "baciti nešto",
+        answers: ["dump something", "to dump something"]
+      },
+      {
+        question: "izbegavati nešto",
+        answers: ["avoid something", "to avoid something"]
+      },
+      {question: "pokisao", answers: ["soaked by rain"]},
+      {question: "jecati", answers: ["sob", "to sobb", "to sob"]},
+      {question: "pokret", answers: ["motion"]},
+      {question: "nepokretan", answers: ["motionless"]},
+      {question: "obaveza", answers: ["errand"]},
+      {question: "gaditi", answers: ["disgust", "to disgust"]},
+      {question: "poreći", answers: ["deny", "to deny"]},
+      {question: "zadnji deo", answers: ["rear end"]},
+      {question: "nasledstvo", answers: ["inheritance"]}
+    ]
+  },
+  {
+    name: "Charlotte's Webb 3",
+    vocabulary: [
+      {question: "okrutan", answers: ["cruel"]},
+      {question: "svojom pameću", answers: ["by my wits"]},
+      {question: "kockati se", answers: ["to gamble", "gamble"]},
+      {question: "spoljašnjost", answers: ["exterior"]},
+      {question: "unutrašnjost", answers: ["interior"]},
+      {question: "procvetati", answers: ["to blossom", "blossom"]},
+      {question: "pastrmka", answers: ["trout"]},
+      {question: "maslačak", answers: ["dandelion"]},
+      {question: "udarati", answers: ["to pound", "pound"]},
+      {question: "moral", answers: ["morals"]},
+      {question: "savest", answers: ["conscience"]},
+      {question: "skrupule", answers: ["scruples"]},
+      {question: "obzir", answers: ["consideration"]},
+      {question: "pristojnost", answers: ["decency"]},
+      {question: "dosađivati", answers: ["to pester", "pester"]},
+      {question: "zavera", answers: ["conspiracy"]},
+      {question: "praćka", answers: ["slingshot"]}
     ]
   }
 ]
